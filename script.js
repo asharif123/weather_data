@@ -48,10 +48,8 @@ searchCity = () => {
     })
 }
 
-
 /**
  * Show the weather data in HTML
- * HINT: make sure to console log the weatherData to see how the data looks like
  */
 showWeatherData = (weatherData) => {
   document.getElementById("city-name").innerText = weatherData.name;
